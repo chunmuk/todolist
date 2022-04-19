@@ -1,0 +1,34 @@
+.TodoForm {
+  text-align: center;
+  padding: 25px 0;
+  background: #0dafbb;
+  width: 100vw;
+}
+
+.TodoForm input {
+  width: 60%;
+  height: 45px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  vertical-align: top;
+  border-radius: 50px;
+  border: none;
+  background-color: #f6f6f6;
+}
+
+.TodoForm input::placeholder {
+  color: #a5a5a5;
+}
+
+.TodoForm button {
+  margin-left: 10px;
+  width: 45px;
+  height: 45px;
+  font-size: 2.2rem;
+  font-weight: bold;
+  background-color: #f6f6f6;
+  color: #0dafbb;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}

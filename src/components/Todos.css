@@ -1,0 +1,15 @@
+.Todos {
+  width: 100vw;
+  margin: 30px auto;
+  box-shadow: 5px 5px 5px 4px rgba(0, 0, 0, 0.1);
+}
+.Todos h1 {
+  text-align: center;
+  padding: 30px 0;
+  background: #0dafbb;
+  color: white;
+  font-size: 2.2rem;
+  font-weight: bold;
+  border-bottom : 1px dotted #fff;
+  margin-bottom : 0;
+}

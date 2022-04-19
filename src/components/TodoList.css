@@ -1,0 +1,40 @@
+.TodoList {
+  background-color: #f6f6f6;
+  list-style: none;
+  margin : 0;
+  padding: 0;
+}
+.TodoList li {
+  padding:15px 30px;
+  border-bottom: 1px solid #dcdcdc;
+}
+.TodoList li span {
+  margin-right: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.TodoList li em {
+  cursor: pointer;
+  font-style: normal;
+}
+.TodoList li button {
+  float: right;
+  width: 50px;
+  font-size: 1.6rem;
+  border : none;
+  cursor: pointer;
+  color: #a5a5a5;
+  background-color: #f6f6f6;
+  position: relative;
+  top: -10px;
+  right: -12px;
+  padding: 5px 0;
+}
+
+.TodoList li.on span {
+  color: #a5a5a5;
+}
+.TodoList li.on em {
+  color: #a5a5a5;
+  text-decoration: line-through;
+}
